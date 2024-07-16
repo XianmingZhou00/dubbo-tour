@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: dubbo-springboot-provider
+dubbo:
+  protocol:
+    name: dubbo
+    port: -1
