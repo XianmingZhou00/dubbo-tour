@@ -6,6 +6,7 @@ dubbo:
     name: dubbo
     port: -1
 
+# 注册中心配置
   registry:
     address: nacos://127.0.0.1:8848 # 配置中心地址
     register-mode: instance # 注册模式：instance interface all
@@ -13,3 +14,13 @@ dubbo:
       username: nacos
       password: nacos
       namespace: 57eb215b-9dfe-4e85-9543-faba95316f98
+
+
+ # 元数据中心配置
+  metadata-report:
+    address: nacos://127.0.0.1:8848
+    protocol: nacos
+    username: nacos
+    password: nacos
+
+
