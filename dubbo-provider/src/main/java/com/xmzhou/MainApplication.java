@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * CreateTime: 2024/7/16 21:16
  */
 @SpringBootApplication
-@EnableDubbo
+@EnableDubbo(scanBasePackages = "com.xmzhou.service")
 public class MainApplication {
     public static void main(String[] args) throws InterruptedException {
         SpringApplication.run(MainApplication.class);

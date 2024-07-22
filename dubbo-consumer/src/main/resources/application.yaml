@@ -4,3 +4,4 @@ spring:
 dubbo:
   application:
     qos-enable: false
+dubbo.registry.address: nacos://127.0.0.1:8848
